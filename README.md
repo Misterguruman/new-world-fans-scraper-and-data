@@ -1,4 +1,4 @@
-# New World Fans image dump
+# New World Fans Image Dump
 
 ## Note: 
 This is our fansite API and it's not directly connected to anything related to the game or Amazon's systems. There is currently no official API.
@@ -21,6 +21,8 @@ reference: https://newworldfans.com/api
 
 ## Usage
 item_data.json is a collection of attributes to items found on the https://newworldfans.com/db endpoint, you can use the "id" attribute of these items to compare with the "image_reference.json" file to know which image is associated with that item.
+
+The data is a little ugly right now, because I was more interested in the images than the reference, this will be patched soon
 
 ## Images
 Images have been sorted into different directories by the attributes -> item_type attribute found in item_data.json
